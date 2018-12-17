@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Respiratory Rate Estimation by peterhcharlton</title>
+    <title>Simulated Pulse Wave Database by peterhcharlton</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -17,42 +17,35 @@
     </section>
 
     <section class="main-content">
-<h3><a id="Respiratory rate publications" class="anchor" href="#respiratory-rate-publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Publications</h3>
+<h3><a id="PWDB publications" class="anchor" href="#pwdb-publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Publications</h3>
 
-<p>We are aiming to publish a series of papers on the estimation of respiratory rate (RR) from the electrocardiogram (ECG) and photoplethysmogram (PPG) using the algorithms and datasets from this project:</p>
+<p>The following publications describe the design and verification of the full database of simulated pulse waves:</p>
 
 <ul>
-  <li><b><a href="waveform_analysis.html">
-	Waveform Analysis to Estimate Respiratory Rate</a></b>:
-	The toolbox (v.1) was used to assess a few RR algorithms applied to both the ECG and the PPG on the <a href="mimicii_dataset.html">MIMIC II dataset</a> (adult subjects).</li>
-  <li><b><a href="yhvs_assessment.html">
-	An assessment of algorithms to estimate respiratory rate from the electrocardiogram and photoplethysmogram</a></b>:
-	The toolbox (v.2) was used to assess a wide range of existing RR algorithms applied to both the ECG and the PPG on the <a href="vortal_dataset.html">Vortal dataset</a> (young subjects).</li>
-  <li><b><a href="factors_assessment.html">
-	Extraction of Respiratory Signals from the Electrocardiogram and Photoplethysmogram: Technical and Physiological Determinants</a></b>:
-	The toolbox (v.3) was used to assess the impact of technical and physiological factors on respiratory signals extracted from the ECG and the PPG using the <a href="vortal_dataset.html">Vortal dataset</a> (young and elderly subjects).</li>
-  <li><b><a href="https://doi.org/10.1109/RBME.2017.2763681">
-	Breathing rate estimation from the electrocardiogram and photoplethysmogram: A review</a></b>:
-	A review of the literature on RR estimation, including: the techniques used for estimating RR from the ECG and PPG; the experimental methodologies used to assess the performance of RR algorithms, and directions for future research.</li>
+  <li><b><a href="pwdb_article.html">
+	Modelling arterial pulse waves in healthy ageing: a database for in silico evaluation of haemodynamics and cardiovascular indices (In Preparation)</a></b>:
+	This article will describe the pulse wave database (v.1), and illustrate its utility through a range of case studies.</li>
+</ul>
+
+<p>In addition, the following publications describe the preliminary version of the database, which is available now:</p>
+
+<ul>
+  <li><b><a href="ppwdb_presentation.html">
+	A Database for the Development of Pulse Wave Analysis Algorithms</a></b>:
+	This presentation provides a helpful overview of the preliminary database. Many of the design principles used for this preliminary database remained the same when constructing the full database.</li>
+  <li><b><a href="https://kclpure.kcl.ac.uk/portal/files/101793806/Modelling_arterial_pulse_wave_propagation_during_healthy_ageing_web_.pdf">
+	A Database for the Development of Pulse Wave Analysis Algorithms</a></b>:
+	  This abstract was presented at the <a href="https://kclpure.kcl.ac.uk/portal/en/publications/modelling-arterial-pulse-wave-propagation-during-healthy-ageing(6579ac0c-f092-4ab5-9dc6-2a7aeda6c78d).html">2018 World Congress on Biomechanics</a>.</li>
 </ul>
 
 <h3><a id="Related publications" class="anchor" href="#related-publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Related Publications</h3>
 
-<p>In addition, the following publications are related to the project:</p>
+<p>In addition, the following publications have made use of the pulse wave databases created in this project:</p>
 
 <ul>
   <li><b><a href="http://dx.doi.org/10.1109/TBME.2016.2613124">
 	Towards a Robust Estimation of Respiratory Rate from Pulse Oximeters</a></b>:
 	This proposes a novel method to improve the robustness of estimation of RR from the PPG, and introduces the <a href="bidmc_dataset.html">BIDMC dataset.</a></li>
-  <li><b><a href="http://dx.doi.org/10.3109/03091902.2011.638965">
-	Photoplethysmographic derivation of respiratory rate: a review of relevant physiology</a></b>:
-	This provides a helpful overview of the physiological mechanisms responsible for respiratory modulation of the PPG. It doesn't use the algorithms or data in this project.</li>
-  <li><b><a href="http://link.springer.com/chapter/10.1007%2F978-3-319-18191-2_10">
-	Probabilistic Estimation of Respiratory Rate from Wearable Sensors</a></b>:
-	This considers one particular algorithm for estimating respiratory rate from the PPG. Its performance was evaluated using the <a href="mimicii_dataset.html">MIMIC II dataset</a>. It doesn't use the algorithms in this project.</li>
-  <li><b><a href="http://dx.doi.org/10.1109/JBHI.2014.2338351">
-	Signal-Quality Indices for the Electrocardiogram and Photoplethysmogram: Derivation and Applications to Wireless Monitoring</a></b>:
-	This presents the algorithms used to determine the quality of ECG and PPG signals in the toolbox. It demonstrates the benefit of signal quality assessment by showing the improved accuracy of RR estimates obtained after elimination of low quality data. It doesn't use the datasets in this project.</li>
 </ul>
 
     </section>
