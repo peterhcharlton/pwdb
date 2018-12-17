@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Respiratory Rate Estimation by peterhcharlton</title>
+    <title>Simulated Pulse Wave Database by peterhcharlton</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -28,8 +28,8 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Vortal Dataset</h1>
-      <h2 class="project-tagline">Dataset of healthy volunteer recordings</h2>
+      <h1 class="project-name">Preliminary Pulse Wave Database</h1>
+      <h2 class="project-tagline">A database of simulated pulse waves representing 25- to 75-year olds with varying cardiovascular properties.</h2>
       <a href="datasets.html" class="btn">Datasets Homepage</a>
     </section>
 
@@ -37,8 +37,11 @@
 
 <h3><a id="Summary" class="anchor" href="#datasets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h3>
 
-<p>The Vortal dataset is a dataset of electrocardiogram (ECG) and pulse oximetry (photoplethysmogram, PPG) signals acquired from healthy volunteers.
-This dataset is intended to facilitate evaluation of the performance of algorithms under ideal operating conditions.
+<p>The Preliminary Pulse Wave Database is a set of simulated arterial pulse waves for 258 virtual subjets aged from 25 to 75 years old (in 10 year increments). 
+The database contains a baseline simulation for each of the six age groups, which was created using cardiovascular properties (such as heart rate and arterial stiffness) which are representative of healthy subjects at each age group.
+It also contains a further 42 virtual subjects at each age group, in which one of the cardiovascuar properties was varied from its baseline value whilst all others were held constant at their baseline values.
+This allows for preliminary analyses of the performance of pulse wave analysis algorithms.
+However, its utility is restricted because the virtual subjects cannot be considered to be representative of a sample of healthy adults, as cardiovascular properties were only varied indpendently, whereas in reality an individual's cardiovascular properties are all slightly different from the norm for their age.
 </p>
 
 <h3><span aria-hidden="true" class="octicon octicon-link"></span></a>Details</h3>
