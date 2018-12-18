@@ -23,23 +23,17 @@
 <p>
   On this page we provide links to the algorithms used to: (i) create the <a href="pwdb.html">database</a> of arterial pulse waves; and (ii) analyse the resulting pulse waves.
    The algorithms have a broad range of uses. Firstly, they can be used to reproduce the work carried out in this project.
-   Secondly, and perhaps more importantly, they can be used for further research: for pulse wave analysis, and to create additional pulse wave databases representative of different patient populations.
+   Secondly, and perhaps more importantly, they can be used for further research: for pulse wave analysis studies, and to create additional pulse wave databases representative of different patient populations.
 </p>  
 
 <h3><a id="Algorithms used to create the Pulse Wave Database" class="anchor" href="#pwdb-design-algorthims" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Algorithms used to create the Pulse Wave Database</h3>
 
-<p>Research into respiratory rate algorithms has been hindered by a lack of open-source algorithms.
-Consequently, one aim of this project is to provide open-source algorithms to facilitate future research.
-As stated in the licence accompanying the source code, the algorithms are not intended to be fit for any purpose.
-Instead, they act as an platform from which researchers can develop algorithms.</p>
-
-<p>The following resources are provided:</p>
-
-<ul>
-  <li><b><a href="https://github.com/peterhcharlton/RRest/archive/master.zip">Algorithm Source Code</a></b>: The latest version of the toolbox of algorithms.</li>
-  <li><b><a href="https://github.com/peterhcharlton/RRest/wiki">User Manual</a></b>: A helpful resource for new users of the toolbox.</li>
-  <li><b><a href="https://github.com/peterhcharlton/RRest">Github Repository</a></b>: A repository of all versions of the toolbox, past and present.</li>
-</ul>
+<p>The pulse wave database was created in three steps:</p>
+<ol>
+  <li><b><a href="#">Creating model input files</a></b>: The text files used as inputs to the computational model of pulse wave propagation were created in Matlab &reg; .</li>
+  <li><b><a href="#">Running pulse wave simulations</a></b>: The <a href="http://haemod.uk/nektar">Nektar1D</a> model of pulse wave propagation was used to simulate pulse waves. This produced a set of output files for each simulation.</li>
+  <li><b><a href="#">Post-processing model output files</a></b>: Data were extracted from the model output files, and processed in Matlab &reg; .</li>
+</ol>
 
 <h3><a id="Pulse Wave Analysis Algorithms" class="anchor" href="#pwa-algorthims" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pulse Wave Analysis Algorithms</h3>
 
