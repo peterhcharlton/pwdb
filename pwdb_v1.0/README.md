@@ -2,7 +2,7 @@
 
 This version of the toolbox contains the algorithms used in the following publication:
 
-Charlton P.H. *et al.* [**Modelling arterial pulse waves in healthy ageing: a database for in silico evaluation of haemodynamics and cardiovascular indices**](https://peterhcharlton.github.io/pwdb/pwdb_article.html), [In Preparation]
+Charlton P.H. *et al.* [**Modelling arterial pulse waves in healthy ageing: a database for in silico evaluation of haemodynamics and pulse wave indices**](https://peterhcharlton.github.io/pwdb/pwdb_article.html), [In Preparation]
 
 The algorithms are provided in Matlab &reg; format.
 
