@@ -15,7 +15,8 @@ In this article we will describe the design and verification of the [Pulse Wave 
 The work presented in this publication can be replicated as follows:
 
 *   If you wish to reproduce the Pulse Wave DataBase (PWDB), then follow the instructions [here](https://github.com/peterhcharlton/pwdb/wiki/Reproducing-the-Pulse-Wave-Database).
-*   If you want to use the Pulse Wave DataBase (without re-creating it from scratch), then follow the instructions [here](https://github.com/peterhcharlton/pwdb/wiki/Reproducing-the-Analysis), using Version 1 of the toolbox of algorithms.
+*   If you want to reproduce the analysis of the Pulse Wave DataBase (without re-creating it from scratch), then follow the instructions [here](https://github.com/peterhcharlton/pwdb/wiki/Reproducing-the-Analysis), using Version 1 of the toolbox of algorithms.
+*   If you want to recreate the figures and tables in this publication, then follow the instructions [here](https://github.com/peterhcharlton/pwdb/wiki/Reproducing-the-Article-Figures).
 
 ## Further Resources
 
