@@ -1,0 +1,262 @@
+Article	Dependent Variable	Subgroup	Significant Change	No subjects
+Proper1972	Cardiac output	na	none	500
+Le2016	Cardiac output	na	decrease	180
+Branfonbrener1955	Cardiac output	na	decrease	67
+Rodeheffer1986	Cardiac output	na	none	64
+Rodeheffer1984	Cardiac output	na	none	61
+Chen1998	Cardiac output	na	none	57
+Nichols1985	Cardiac output	na	decrease	45
+Houghton2016	Cardiac output	na	decrease	30
+Merillon1982	Cardiac output	na	decrease	28
+Conway1971	Cardiac output	na	decrease	27
+Joh2013	Dia - Aorta Abd	not sure; suprarenal	increase	1218
+Joh2013	Dia - Aorta Abd	not sure; renal	increase	1218
+Joh2013	Dia - Aorta Abd	not sure; infrarenal	increase	1218
+Virmani1991	Dia - Aorta Abd	100 mmhg; suprarenal	increase	302
+Virmani1991	Dia - Aorta Abd	100 mmhg; infrarenal	increase	302
+Pedersen1993	Dia - Aorta Abd	not sure; iliac	increase	160
+Pedersen1993	Dia - Aorta Abd	not sure; renal	increase	160
+Hickson2010	Dia - Aorta Abd	systolic	increase	157
+Hickson2010	Dia - Aorta Abd	systolic; iliac	increase	157
+Sonesson1993	Dia - Aorta Abd	mean	increase	69
+Roccabianca2014	Dia - Aorta Abd	"infrarenal; diast, mean and sys (separate)"	increase	27
+Campens2015	Dia - Aorta Ann	end-diastole	increase	844
+Vriz2013	Dia - Aorta Ann	end-diastole	increase	422
+Kim1996	Dia - Aorta Ann	end-diastole	none	220
+Agmon2003	Dia - Aorta Arch	end-diastole	increase	373
+Turkbey2014	Dia - Aorta Asc	mean	increase	3573
+Mao2008	Dia - Aorta Asc	na	increase	1442
+Campens2015	Dia - Aorta Asc	end-diastole	increase	844
+Vriz2013	Dia - Aorta Asc	end-diastole	increase	422
+Agmon2003	Dia - Aorta Asc	end-diastole	increase	373
+Virmani1991	Dia - Aorta Asc	100 mmhg	increase	302
+Kim1996	Dia - Aorta Asc	end-diastole	none	220
+Hickson2010	Dia - Aorta Asc	systolic	increase	157
+Redheuil2011	Dia - Aorta Asc	ave diameter	increase	100
+Bensalah2014	Dia - Aorta Asc	diastolic	increase	96
+Nichols1985	Dia - Aorta Asc	mean systolic	increase	45
+Merillon1982	Dia - Aorta Asc	end-diastole	increase	25
+Roccabianca2014	Dia - Aorta Asc	"diast, mean and sys (separate)"	increase	22
+Agmon2003	Dia - Aorta D Thor	end-diastole	increase	373
+Virmani1991	Dia - Aorta D Thor	100 mmhg	increase	302
+Hickson2010	Dia - Aorta D Thor	systolic	increase	157
+Redheuil2011	Dia - Aorta D Thor	ave diameter	increase	100
+Roccabianca2014	Dia - Aorta D Thor	"diast, mean and sys (separate)"	increase	25
+Hickson2010	Dia - Aorta Diaph	systolic; diaphragm	increase	157
+Redheuil2011	Dia - Aorta Diaph	ave diameter	increase	100
+Bader1967	Dia - Aorta Diaph	unclear	increase	27
+Gerstenblith1977	Dia - Aorta Root	diastolic	increase	89
+Campens2015	Dia - Aorta Sino	end-diastole	increase	844
+Vriz2013	Dia - Aorta Sino	end-diastole	increase	422
+Kim1996	Dia - Aorta Sino	end-diastole	none	220
+Le2016	Dia - Aorta Sino	end-diastole	increase	180
+Campens2015	Dia - Aorta SoV	end-diastole	increase	844
+Vriz2013	Dia - Aorta SoV	end-diastole	increase	422
+Agmon2003	Dia - Aorta SoV	end-diastole	none	373
+Kim1996	Dia - Aorta SoV	end-diastole	none	220
+Le2016	Dia - Aorta SoV	end-diastole	increase	180
+Burman2008	Dia - Aorta SoV	end-diastole	increase	120
+VanderHeijden-Spek2000	Dia - Brachial	end-diastole	increase	498
+_Green2010	Dia - Brachial	not sure	increase	31
+Sass1998	Dia - Carotid	mean	none	176
+Bortolotto1999	Dia - Carotid	end-diastole	increase	149
+Hansen1995	Dia - Carotid	mean	increase	119
+Reneman1986	Dia - Carotid	not sure	none	80
+Benetos1993	Dia - Carotid	diastolic	increase	78
+Hirata2006a	Dia - Carotid	end-diastole	increase	56
+Sass1998	Dia - Femoral	mean	none	176
+Sandgren1999	Dia - Femoral	not sure	increase	122
+Benetos1993	Dia - Femoral	diastolic	none	78
+Joh2013	Dia - Iliac	not sure; right iliac	none	1218
+Joh2013	Dia - Iliac	not sure; left iliac	none	1218
+_Pedersen1993	Dia - Iliac	not sure; common iliac	increase	160
+Bortolotto1999	Dia - Radial	end-diastole	increase	149
+Willems1970	Ejection time	absolute carotid Psys	non_linear	512
+Proper1972	Ejection time	absolute ?	none	500
+Merri1989	Ejection time	absolute QT	none	423
+Taneja2001	Ejection time	absolute QT	increase	354
+Shaw1973	Ejection time	absolute carotid Psys	none	218
+Shaw1973	Ejection time	Q-wave to PCG sound	none	218
+Reardon1996	Ejection time	absolute QT	none	96
+Gardin1987	Ejection time	absolute aortic doppler	none	83
+Gerstenblith1977	Ejection time	absolute echo LVET (and others)	none	65
+Salvi2018	Ejection time	echo	none	62
+Salvi2018	Ejection time	carotid	none	62
+Hirata2006a	Ejection time	absolute carotid Psys	none	56
+Mangoni2003	Ejection time (corr)	corrected QT	increase	191
+Reardon1996	Ejection time (corr)	corrected QT	increase	96
+Gardin1987	Ejection time (corr)	corrected aortic doppler	increase	82
+Bensalah2014	Flow upslope duration	asc aorta	none	96
+Gardin1987	Flow upslope duration	aortic	none	82
+Hirata2006a	Flow upslope duration	carotid	decrease	56
+Yashin2006	Heart rate	na	non_linear	5209
+Proper1972	Heart rate	na	none	500
+Merri1989	Heart rate	na	none	423
+Fleg1995	Heart rate	na	decrease	200
+Mangoni2003	Heart rate	na	none	191
+Redheuil2010	Heart rate	na	none	111
+Kostis1982	Heart rate	na	none	101
+Bensalah2014	Heart rate	na	none	96
+Reardon1996	Heart rate	na	none	96
+Gardin1987	Heart rate	na	increase	95
+Reneman1986	Heart rate	na	none	80
+Rodeheffer1986	Heart rate	na	none	64
+Salvi2018	Heart rate	na	none	62
+Rodeheffer1984	Heart rate	na	none	61
+Schwartz1991	Heart rate	na	none	56
+Simpson1988	Heart rate	na	none	51
+Nichols1985	Heart rate	na	none	45
+Younis1990	Heart rate	na	none	35
+Houghton2016	Heart rate	na	none	30
+Chen1998	Heart rate	na	none	28
+Merillon1982	Heart rate	na	none	28
+Arora1987	Heart rate	na	none	23
+Sorkin1999	Height	na 	decrease	2084
+Miall1967	Height	na	decrease	1987
+Cline1989	Height	na	decrease	1763
+Greenwald1990	Iliac Reflection Coefficient	na	decrease	46
+Hickson2010	Length - Aorta Abd	suprarenal	none	157
+Hickson2010	Length - Aorta Abd	infrarenal	none	157
+Raiem2012	Length - Aorta Arch	diastole	increase	200
+Hickson2010	Length - Aorta Arch	na	increase	157
+Bensalah2014	Length - Aorta Arch	na	increase	96
+Sugawara2008	Length - Aorta Asc	na	increase	256
+Raiem2012	Length - Aorta Asc	diastole	increase	200
+Hickson2010	Length - Aorta D Thor	na	none	157
+Raiem2012	Length - Aorta D Thor	diastole	increase	200
+Sugawara2008	Length - Aorta Desc	na	none	256
+Dotter1950	Length - Aorta Thor	na	non_linear	84
+Sugawara2008	Length - Carotid	na	none	256
+Sugawara2008	Length - Iliac	na	none	256
+Bensalah2014	Peak flow	asc aorta	none	96
+Hirata2006a	Peak flow	carotid	none	56
+Nichols1985	Peak flow	aortic	decrease	45
+Bensalah2014	Peak flow time	asc aorta	none	96
+Gardin1987	Peak flow time	aortic	none	82
+Hirata2006a	Peak flow time	carotid	decrease	56
+Gardin1987	Peak flow vel	aortic	decrease	80
+Hirata2006a	Peak flow vel	carotid	decrease	56
+Mattace-Raso2010	PWV - Aorta	carotid-femoral	increase	16867
+Scuteri2014	PWV - Aorta	carotid-femoral	increase	4358
+McEniery2005	PWV - Aorta	carotid-femoral	increase	998
+Kim2014a	PWV - Aorta	carotid-femoral	increase	778
+Avolio1985	PWV - Aorta	arch-femoral	increase	524
+Mitchell2004	PWV - Aorta	carotid-femoral	increase	521
+Avolio1983	PWV - Aorta	arch-femoral	increase	480
+HALLOCK1934	PWV - Aorta	carotid-iliac	increase	474
+Benetos2002a	PWV - Aorta	carotid-femoral	increase	296
+Vaitkevicius1993	PWV - Aorta	arch-femoral	increase	146
+Redheuil2010	PWV - Aorta	carotid-femoral	increase	111
+Bensalah2014	PWV - Aorta	carotid-femoral	increase	96
+SIMONSON1960	PWV - Aorta	aortic valve - femoral	increase	51
+Liang1998	PWV - Aorta	carotid-femoral	increase	50
+Haynes1936	PWV - Aorta	subclavian-femoral	increase	17
+Hickson2010	PWV - Aorta Abd	upper abd	increase	162
+Hickson2010	PWV - Aorta Abd	lower abd	increase	162
+OROURKE1968	PWV - Aorta Abd	diaphragm-iliac	increase	39
+Hickson2010	PWV - Aorta Arch	na	increase	162
+Redheuil2010	PWV - Aorta Arch	asc-desc	increase	111
+Bensalah2014	PWV - Aorta Arch	asc-desc	increase	96
+Merillon1982	PWV - Aorta Asc	single-site	increase	25
+Gozna1974	PWV - Aorta Asc	unclear	increase	21
+Hickson2010	PWV - Aorta D Thor	na	increase	162
+Monnier1987	PWV - Aorta Leg	ecg-dorsalis	increase	60
+OROURKE1968	PWV - Aorta Thor	arch-diaphragm	none	39
+McEniery2005	PWV - Arm	carotid-radial	increase	998
+HALLOCK1934	PWV - Arm	carotid-radial	increase	553
+Avolio1985	PWV - Arm	brachial-radial	increase	524
+Mitchell2004	PWV - Arm	carotid-brachial	increase	521
+Avolio1983	PWV - Arm	brachial-radial	increase	480
+Fulton1930	PWV - Arm	carotid-brachial	increase	103
+Fulton1930	PWV - Arm	carotid-radial	increase	103
+Fulton1930	PWV - Arm	brachial-radial	increase	103
+Bramwell1923	PWV - Arm	carotid - radial	increase	74
+Landowne1958	PWV - Arm	carotid-radial	increase	63
+Smulyan1983	PWV - Arm	elbow-wrist	increase	48
+Landowne1958	PWV - Arm	brachial-radial (impact wave vel)	increase	31
+Haynes1936	PWV - Arm	carotid-brachial	increase	14
+Bramwell1922a	PWV - Arm	carotid-radial	increase	8
+Avolio1985	PWV - Leg	femoral-dorsalis	increase	524
+Avolio1983	PWV - Leg	femoral-dorsalis	increase	480
+Sapoznikov1971	PWV - Leg	femoral-dorsalis	increase	105
+Liang1998	PWV - Leg	femoral-dorsalis	none	50
+Haynes1936	PWV - Leg	femoral - dorsalis pedis	increase	17
+Gozna1974	PWV - Pulmonary	unclear	increase	22
+Bensalah2014	Reverse Flow Volume	aortic	none	96
+Nakashima1971	Stiffness - Aorta Abd	Circumferential Young's	increase	94
+Sonesson1993	Stiffness - Aorta Abd	Elastic modulus	increase	69
+Sonesson1993	Stiffness - Aorta Abd	Stiffness	increase	69
+Kawasaki1987	Stiffness - Aorta Abd	stiffness index	increase	39
+Learoyd1966	Stiffness - Aorta Abd	Young's; 100 mmhg	none	7
+Vriz2013	Stiffness - Aorta Asc	elasticity modulus; stiffness index	increase	422
+Redheuil2010	Stiffness - Aorta Asc	distensibility	increase	111
+Bensalah2014	Stiffness - Aorta Asc	distensibility	increase	96
+Gozna1974	Stiffness - Aorta Asc	modulus of elasticity	increase	43
+Redheuil2010	Stiffness - Aorta D Thor	distensibility	increase	111
+Bader1967	Stiffness - Aorta D Thor	Tangential elasticity modulus	increase	27
+Nakashima1971	Stiffness - Aorta Thor	Circumferential Young's	increase	94
+Learoyd1966	Stiffness - Aorta Thor	Young's; 100 mmhg	increase	11
+VanderHeijden-Spek2000	Stiffness - Brachial	distensibility	increase	498
+VanderHeijden-Spek2000	Stiffness - Brachial	compliance	none	498
+Kawasaki1987	Stiffness - Brachial	stiffness index	increase	39
+Tanaka2000	Stiffness - Carotid	compliance; stiffness index	increase	151
+Bortolotto1999	Stiffness - Carotid	distensibility; modulus of elasticity	increase	149
+Redheuil2010	Stiffness - Carotid	distensibility	increase	111
+Bensalah2014	Stiffness - Carotid	stiffness index	increase	96
+Reneman1986	Stiffness - Carotid	distensibility; compliance	increase	80
+Benetos1993	Stiffness - Carotid	Distensibility	increase	78
+Benetos1993	Stiffness - Carotid	Compliance	increase	78
+Liang1998	Stiffness - Carotid	distensibility	increase	50
+Kawasaki1987	Stiffness - Carotid	stiffness index	increase	39
+Learoyd1966	Stiffness - Carotid	Young's; 100 mmhg	none	7
+Benetos1993	Stiffness - Femoral	Distensibility	none	78
+Benetos1993	Stiffness - Femoral	Compliance	none	78
+Kawasaki1987	Stiffness - Femoral	stiffness index	increase	39
+Learoyd1966	Stiffness - Femoral	Young's; 100 mmhg	none	8
+Learoyd1966	Stiffness - Iliac	Young's; 100 mmhg	decrease	8
+Bortolotto1999	Stiffness - Radial	distensibility; modulus of elasticity	none	149
+_Poppe2015a	Stroke volume	na	decrease	3719
+Petersen2017	Stroke volume	na	decrease	800
+Proper1972	Stroke volume	na	none	500
+Le2016	Stroke volume	na	decrease	180
+Carlsson2012	Stroke volume	na	decrease	144
+Cain2009	Stroke volume	na	decrease	96
+Rodeheffer1986	Stroke volume	na	none	64
+Rodeheffer1984	Stroke volume	na	increase	61
+Nichols1985	Stroke volume	na	decrease	45
+Houghton2016	Stroke volume	na	decrease	30
+Merillon1982	Stroke volume	na	decrease	28
+McVeigh1999	Systemic Vascular Compliance	non-invasive; radial	decrease	212
+McVeigh1999	Systemic Vascular Compliance	invasive; brachial	decrease	115
+Resnick2000	Systemic Vascular Compliance	radial	decrease	87
+Lopez-Beltran1998	Systemic Vascular Compliance	finger ppg and pressure	decrease	62
+Liang1998	Systemic Vascular Compliance	na	decrease	50
+Chemla1998	Systemic Vascular Compliance	aortic SV/PP	decrease	31
+Redfield2005	Systemic Vascular Resistance	index; doppler	none	623
+McVeigh1999	Systemic Vascular Resistance	non-invasive; radial	increase	212
+Fleg1995	Systemic Vascular Resistance	men	none	121
+McVeigh1999	Systemic Vascular Resistance	invasive; brachial	increase	115
+Fleg1995	Systemic Vascular Resistance	women	increase	79
+Rodeheffer1984	Systemic Vascular Resistance	not sure	none	61
+Nichols1985	Systemic Vascular Resistance	peripheral resistance	increase	45
+Nichols1985	Systemic Vascular Resistance	characteristic	increase	45
+Kawamoto1989	Systemic Vascular Resistance	dye dilution	none	42
+Houghton2016	Systemic Vascular Resistance	Cheetah	increase	30
+Chen1998	Systemic Vascular Resistance	unsure	increase	28
+Merillon1982	Systemic Vascular Resistance	dye dilution	increase	28
+Virmani1991	Thickness - Aorta Abd	intimal; suprarenal	increase	302
+Virmani1991	Thickness - Aorta Abd	intimal; infrarenal	increase	302
+Virmani1991	Thickness - Aorta Abd	medial; suprarenal	none	302
+Virmani1991	Thickness - Aorta Abd	medial; infrarenal	none	302
+Turkbey2014	Thickness - Aorta Asc	na	none	3573
+Virmani1991	Thickness - Aorta Asc	intimal	increase	302
+Virmani1991	Thickness - Aorta Asc	medial	none	302
+Virmani1991	Thickness - Aorta D Thor	intimal	increase	302
+Virmani1991	Thickness - Aorta D Thor	medial	none	302
+Nagai1998	Thickness - Carotid	intima-medial	increase	397
+Sass1998	Thickness - Carotid	intima-media	increase	176
+Bortolotto1999	Thickness - Carotid	intima-medial	increase	149
+Redheuil2010	Thickness - Carotid	intima-media	increase	111
+Liang1998	Thickness - Carotid	intima-media	increase	50
+Sass1998	Thickness - Femoral	intima-media	increase	176
+Bortolotto1999	Thickness - Radial	intima-medial	increase	149
