@@ -59,41 +59,41 @@ PATHS = setup_paths_for_post_processing(pwdb_no);
 % create folders in which to store results
 create_folders(PATHS)
 
-% Make table of haemodynamic characteristics
-make_haem_characteristics_table(PATHS);
-
-% Make demo PPG analysis plot
-make_demo_ppg_analysis_plot(PATHS);
-
-% Compare simulated characteristics with prescribed characteristics
-make_simulated_vs_prescribed_figure(PATHS);
-
-% Make wave speed figure
-make_wave_speed_figure(PATHS);
-
-% Compare simulated characteristics with those from literature
-make_simulated_vs_literature_figure(PATHS);
-
-% Make figure of baseline waves of 25-year old at common measurement sites
-make_baseline_waves_figure(PATHS, pwdb_no);
-
-% Make pressure-area plots to investigate hysteresis
-make_pressure_area_plots(PATHS);
-
-% Make plot of how gamma changes with arterial diameter
-make_gamma_plots(PATHS);
-
-% Make plots of how 25-year old waves vary with changes in initial params
-make_initial_parameters_waves_figure(PATHS);
-
-% Make figures of changes in wave shape with parameters
-make_parameters_waves_figure(PATHS);
-
-% Make figure
-make_wrist_ppg_parameters_figure(PATHS);
-
-% Make figure of PPG estimation
-make_ppg_estimation_figure(PATHS);
+% % Make table of haemodynamic characteristics
+% make_haem_characteristics_table(PATHS);
+% 
+% % Make demo PPG analysis plot
+% make_demo_ppg_analysis_plot(PATHS);
+% 
+% % Compare simulated characteristics with prescribed characteristics
+% make_simulated_vs_prescribed_figure(PATHS);
+% 
+% % Make wave speed figure
+% make_wave_speed_figure(PATHS);
+% 
+% % Compare simulated characteristics with those from literature
+% make_simulated_vs_literature_figure(PATHS);
+% 
+% % Make figure of baseline waves of 25-year old at common measurement sites
+% make_baseline_waves_figure(PATHS, pwdb_no);
+% 
+% % Make pressure-area plots to investigate hysteresis
+% make_pressure_area_plots(PATHS);
+% 
+% % Make plot of how gamma changes with arterial diameter
+% make_gamma_plots(PATHS);
+% 
+% % Make plots of how 25-year old waves vary with changes in initial params
+% make_initial_parameters_waves_figure(PATHS);
+% 
+% % Make figures of changes in wave shape with parameters
+% make_parameters_waves_figure(PATHS);
+% 
+% % Make figure
+% make_wrist_ppg_parameters_figure(PATHS);
+% 
+% % Make figure of PPG estimation
+% make_ppg_estimation_figure(PATHS);
 
 % Make figure of changes in wave shape with age (comparing to literature)
 make_changes_in_waves_age_figure(PATHS);
@@ -2623,9 +2623,9 @@ ages = data.config.age(baseline_sim_nos);
 % Extract relevant data for min, max, and mid ages
 [~,min_el] = min(ages);
 mid_el = ceil(0.5*(1+length(ages)));
-[~,max_el] = max(ages);
-rel_sims = [min_el, mid_el, max_el]; clear min_el mid_el max_el
-rel_ages = ages(rel_sims); clear ages
+[~,max_el] = max(ages); clear ages
+rel_sims = baseline_sim_nos([min_el, mid_el, max_el]); clear min_el mid_el max_el
+rel_ages = data.config.age(rel_sims);
 
 % Setup plotting
 wave_types = {'PPG', 'P', 'U'};
