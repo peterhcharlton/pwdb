@@ -40,7 +40,7 @@
 
 <p>The following Matlab &reg; algorithms were used in this work and may be particularly useful to researchers in this field:</p>
 <ol>
-  <li><b><a href="#pulse-analyse">PulseAnalyse</a></b>: A script for identifying fiducial points (such as systolic and diastolic peaks) on pulse waves, and taking feature measurements (such as the augmentation index).</li>
+  <li><b><a href="#PulseAnalyse">PulseAnalyse</a></b>: A script for identifying fiducial points (such as systolic and diastolic peaks) on pulse waves, and taking feature measurements (such as the augmentation index).</li>
   <li><b><a href="#AorticFlowWave">AorticFlowWave</a></b>: A script for identifying fiducial points (such as systolic and diastolic peaks) on pulse waves, and taking feature measurements (such as the augmentation index).</li>
   <li><b><a href="#TTalgorithm">TTalgorithm</a></b>: A script for measuring the pulse transit time between two pulse waves.</li>
   <li><b><a href="#ConvertHistoryFlies">ConvertHistoryFiles</a></b>: A script for converting "history" files produced by Nektar1D into Matlab &reg; format.</li>
@@ -48,7 +48,7 @@
 
 <p>Further details of each of these algorithms are now provided.</p>
       
-<h4><a id="PulseAnalyse" class="anchor" href="#pulse-analyse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PulseAnalye</h4>
+<h4><a id="PulseAnalyse" class="anchor" href="#PulseAnalyse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PulseAnalye</h4>
       
       <p> PulseAnalyse is a tool for analysing arterial pulse waves, such as blood pressure and photoplethysmogram pulse waves. In this work it was used to identify points on pulse waves (such as the systolic peak and dicrotic notch), and to calculate cardiovascular indices from them (such as the augmentation index).</p>      
 
@@ -57,24 +57,37 @@
   <figcaption> <center> <b>PulseAnalyse:</b> A tool for analysing a pulse wave to estimate cardiovascular properties.</center></figcaption>
 </figure>
       
-      PulseAnalyse can be downloaded <a href="https://github.com/peterhcharlton/pulse-analyse/archive/master.zip">here</a>, and further details are available at the <a href = "https://peterhcharlton.github.io/pulse-analyse">PulseAnalyse Project Website</a>.
+<p>PulseAnalyse can be downloaded <a href="https://github.com/peterhcharlton/pulse-analyse/archive/master.zip">here</a>, and further details are available at the <a href = "https://peterhcharlton.github.io/pulse-analyse">PulseAnalyse Project Website</a>.</p>
 
 <h4><a id="AorticFlowWave" class="anchor" href="#AorticFlowWave" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AorticFlowWave</h4>
 
-      <p> AorticFlowWave is a tool for creating synthetic aortic flow waves with different properties, such as blood pressure and photoplethysmogram pulse waves. In this work it was used to identify points on pulse waves (such as the systolic peak and dicrotic notch), and to calculate cardiovascular indices from them (such as the augmentation index).</p>      
+<p> AorticFlowWave is a tool for creating synthetic aortic flow waves with different properties, such as blood pressure and photoplethysmogram pulse waves. In this work it was used to identify points on pulse waves (such as the systolic peak and dicrotic notch), and to calculate cardiovascular indices from them (such as the augmentation index).</p>      
 
 <figure>
   <img src="https://user-images.githubusercontent.com/9865941/55390928-2cce0080-5530-11e9-91c9-4cdfeef3b6fa.png" alt="algorithm">
   <figcaption> <center> <b>AorticFlowWave:</b> A tool for creating synthetic aortic flow waves, shown here with different left ventricular ejection times.</center></figcaption>
 </figure>
       
-The source code for AorticFlowWave is available <a href="https://raw.githubusercontent.com/peterhcharlton/pwdb/master/pwdb_v0.1/Additional%20Functions/AorticFlowWave.m">here</a>, and it can be downloaded as part of the <a href="https://github.com/peterhcharlton/pulse-analyse/archive/master.zip">PWDB code</a>. Further details are available <a href = "https://github.com/peterhcharlton/pwdb/wiki/AorticFlowWave">here</a>.
+<p>The source code for AorticFlowWave is available <a href="https://raw.githubusercontent.com/peterhcharlton/pwdb/master/pwdb_v0.1/Additional%20Functions/AorticFlowWave.m">here</a>, and it can be downloaded as part of the <a href="https://github.com/peterhcharlton/pulse-analyse/archive/master.zip">PWDB code</a>. Further details are available <a href = "https://github.com/peterhcharlton/pwdb/wiki/AorticFlowWave">here</a>.</p>
 
 <h4><a id="TTalgorithm" class="anchor" href="#TTalgorithm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TTalgorithm</h4>
 
-      https://uk.mathworks.com/matlabcentral/fileexchange/37746-ttalgorithm
+<p>TTalgorithm is a script written by Nick Gaddum for measuring the pulse transit time between two pulse waves. It is particularly useful as it includes implementations of different methods for estimating pulse transit times, including:</p>
+
+<ol>
+  <li>Foot to foot algorithm</li>
+  <li>Foot to foot radius algorithm</li>
+  <li>Cross correlation of the entire cycle</li>
+  <li>Least Squares</li>
+</ol>
+
+The script is available to download <a href="https://uk.mathworks.com/matlabcentral/fileexchange/37746-ttalgorithm">here</a>.
       
 <h4><a id="ConvertHistoryFlies" class="anchor" href="#ConvertHistoryFlies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ConvertHistoryFlies</h4>
+
+<p>ConvertHistoryFiles is a script for converting pulse wave simulation output files (from Nektar1D) into Matlab format, ready for analysis.</p>
+      
+<p>The source code is available <a href="https://raw.githubusercontent.com/peterhcharlton/pwdb/master/pwdb_v0.1/Additional%20Functions/ConvertHistoryFiles.m">here</a>, and it can be downloaded as part of the <a href="https://github.com/peterhcharlton/pulse-analyse/archive/master.zip">PWDB code</a>. Further details are available <a href="https://github.com/peterhcharlton/pwdb/wiki/ConvertHistoryFiles">here</a>.</p>
 
     </section>
 
