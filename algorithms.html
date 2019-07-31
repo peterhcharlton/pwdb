@@ -34,17 +34,22 @@
   <li><b>Running pulse wave simulations</b>: The <a href="http://haemod.uk/nektar">Nektar1D</a> model of pulse wave propagation was used to simulate pulse waves. This produced a set of output files for each simulation.</li>
   <li><b>Post-processing model output files</b>: Data were extracted from the model output files, and processed in Matlab &reg; .</li>
 </ol>
-      <p>The Matlab &reg; code is available <a href="https://github.com/peterhcharlton/pwdb">here</a>(and can be downloaded using <a href="https://github.com/peterhcharlton/pwdb/archive/master.zip">this link</a>), and details of how to obtain the code for running the simulations are provided <a href = "http://haemod.uk/nektar">here</a>.</p>
+      <p>The Matlab &reg; code is available <a href="https://github.com/peterhcharlton/pwdb">here</a> (and can be downloaded using <a href="https://github.com/peterhcharlton/pwdb/archive/master.zip">this link</a>). Details of how to obtain the code for running the simulations are provided <a href = "http://haemod.uk/nektar">here</a>.</p>
 
 <h3><a id="Pulse Wave Analysis Algorithms" class="anchor" href="#pwa-algorthims" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pulse Wave Analysis Algorithms</h3>
 
-<p>The following Matlab &reg; algorithms were used for pulse wave analysis in this work:</p>
+<p>The following Matlab &reg; algorithms were used in this work and may be particularly useful in future research:</p>
 <ol>
-  <li><b><a href="#">ConvertHistoryFiles</a></b>: A script for converting "history" files produced by Nektar1D into Matlab &reg; format.</li>
-  <li><b><a href="#">PulseAnalyse</a></b>: A script for identifying fiducial points (such as systolic and diastolic peaks) on pulse waves, and taking feature measurements (such as the augmentation index).</li>
+  <li><b><a href="pulse-analyse">PulseAnalyse</a></b>: A script for identifying fiducial points (such as systolic and diastolic peaks) on pulse waves, and taking feature measurements (such as the augmentation index).</li>
+  <li><b><a href="#">AorticFlowWave</a></b>: A script for identifying fiducial points (such as systolic and diastolic peaks) on pulse waves, and taking feature measurements (such as the augmentation index).</li>
   <li><b><a href="https://uk.mathworks.com/matlabcentral/fileexchange/37746-ttalgorithm">TTalgorithm</a></b>: A script for measuring the pulse transit time between two pulse waves.</li>
-  <li><b><a href="http://www.bg.ic.ac.uk/research/k.parker/wave_intensity_web/kreservoir_v10.m">kreservoir</a></b>: A script for estimating the reservoir pressure from a pressure wave.</li>  
+  <li><b><a href="#">ConvertHistoryFiles</a></b>: A script for converting "history" files produced by Nektar1D into Matlab &reg; format.</li>
 </ol>
+
+<p>Further details of each of these algorithms are now provided.</p>
+      
+<h4><a id="PulseAnalyse" class="anchor" href="#pulse-analyse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PulseAnalye</h4>
+
 
     </section>
 
